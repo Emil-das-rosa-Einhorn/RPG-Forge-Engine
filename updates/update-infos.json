@@ -2,7 +2,7 @@
     "main": {
         "comment": "Added Functionality to push updates",
         "aktion": null,
-        "version": "v2.0.0"
+        "version": "v2.2.0"
     },
     "loader": {
         "comment": "Added Functionality to push updates",
@@ -12,7 +12,7 @@
     "assets": {
         "comment": "Added Functionality to push updates",
         "aktion": null,
-        "version": "v1.0.0"
+        "version": "v1.2.0"
     },
     "updater": {
         "comment": "Added Functionality to push updates",
