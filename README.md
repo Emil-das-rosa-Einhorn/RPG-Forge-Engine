@@ -55,6 +55,7 @@ Updates follow slowly but regularly. Here is what is currently being developed f
   - [ ] Formatting content
   - [ ] Uploading story files
 - [ ] **Official Launch Version 3.0**
+- [ ] **to get the 3.0 Version of the Game, the Game must be reinstalled**
 
 ---
 
