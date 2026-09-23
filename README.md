@@ -1,6 +1,6 @@
-# Pen & Paper Solo Adventures
+# RPG Forge Engine
 
-Welcome to **Pen & Paper Solo Adventures**, a lightweight text-based RPG engine designed to bring interactive storytelling right to your terminal! 
+Welcome to **RPG Forge Engine**, a lightweight text-based RPG engine designed to bring interactive storytelling right to your terminal! 
 
 Choose your path, face tough decisions, and experience solo tabletop-style adventures without needing a full group. Stories across various genres will be released continuously over time.
 
@@ -45,13 +45,6 @@ Choose your path, face tough decisions, and experience solo tabletop-style adven
 Updates follow slowly but regularly. Here is what is currently being developed for **Version 3.0**:
 
 - [ ] **Special Actions System** – Development, coding, and integration of special action options.
-  - Open Inventory
-  - Use Character Special Abilities
-  - Open Map
-  - Print Journey Summary
-  - Save Game
-  - Quit to Main Menu
-  - Quit to Desktop
 - [ ] **Map System** – Development, coding, and integration of an interactive game map.
 - [ ] **Inventory System** – Development, coding, and integration of items and equipment management.
 - [ ] **Combat System** – Development, coding, and integration of a turn-based combat system.
