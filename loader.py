@@ -10,7 +10,7 @@ def get_version():
 def load_update_info():
     filename = "update-infos"
     try:
-        base_url = "https://raw.githubusercontent.com/Emil-das-rosa-Einhorn/PaP-Text/refs/heads/main/updates/"
+        base_url = "https://raw.githubusercontent.com/Emil-das-rosa-Einhorn/RPG-Forge-Engine/refs/heads/main/updates/"
         url = base_url + filename + ".json"
         pfad = os.path.join(os.path.dirname(__file__), "updates", "info.json")
         urllib.request.urlretrieve(url, pfad)
@@ -23,7 +23,7 @@ def load_update_info():
 
 def download_gamefile(filename):
     try:
-        base_url = "https://raw.githubusercontent.com/Emil-das-rosa-Einhorn/PaP-Text/refs/heads/main/gamefiles/"
+        base_url = "https://raw.githubusercontent.com/Emil-das-rosa-Einhorn/RPG-Forge-Engine/refs/heads/main/gamefiles/"
         url = base_url + filename + ".json"
         pfad = os.path.join(os.path.dirname(__file__), "gamefiles", "gamefile.json")
         urllib.request.urlretrieve(url, pfad)
@@ -41,7 +41,7 @@ def load_gamefile():
 def check_gamelist():
     files = []
     try:
-        api_url = "https://api.github.com/repos/Emil-das-rosa-Einhorn/PaP-Text/contents/gamefiles"
+        api_url = "https://api.github.com/repos/Emil-das-rosa-Einhorn/RPG-Forge-Engine/contents/gamefiles"
         response = requests.get(api_url)
         if response.status_code == 200:
             items = response.json()
@@ -61,7 +61,7 @@ def load_info ():
     game_version = []
     try:
         for filename in game_list:
-            base_url = "https://raw.githubusercontent.com/Emil-das-rosa-Einhorn/PaP-Text/refs/heads/main/gamefiles/"
+            base_url = "https://raw.githubusercontent.com/Emil-das-rosa-Einhorn/RPG-Forge-Engine/refs/heads/main/gamefiles/"
             url = base_url + filename + ".json"
             response = requests.get(url)
             if response.status_code == 200:
