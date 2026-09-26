@@ -1,7 +1,7 @@
 {
     "version": "v1.0",
-    "title": "der große Test",
-    "info": "das grosse Testspiel",
+    "title": "D&D-Die-Stadt-der-tausend-Lichter-de",
+    "info": "Es sollte die Nacht des Gedenkens werden – sechstausend Seelenfeuer erhellen den Branduin,\num den Toten zu gedenken. Doch als du auf den Burgzinnen das Licht bewachst, verschlingt eine Welle aus dunkelheit das Tal.\nIm nächsten Augenblick ist die Feier vorbei. Die Stimmen verstummen. Das Dorf ist leer.\nEin fernes Schreien zerreißt die Stille, und aus den alten Steinwänden der Burg steigt ein schauerliches Flüstern empor.\nUralte Schemen aus den Trümmern des letzten großen Krieges sind aus der Vergessenheit erwacht.\nUm die Menschen von Abdalum zu retten, bleibt dir nur eine Hoffnung: Das Geheimniss der tausend lichter zu lösen.",
     "character_profiles": {
         "1": {
             "HP": 100,
