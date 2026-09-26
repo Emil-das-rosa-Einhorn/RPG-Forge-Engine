@@ -1,7 +1,7 @@
 {
-    "version": "v0.0",
-    "titel": "Die Stadt der tausend Lichter",
-    "info": "In der Nacht des wichtigsten Feiertags von Abdalum steigen tausende Seelenfeuer über dem Branduin auf. \nDoch schlagartig wird das Tal von einem dichten Nebel verschlungen: \nSämtliche Bewohner verschwinden spurlos, und die Burg steht plötzlich völlig leer. \nMutterseelenallein musst du dich in die Stille der Nacht wagen, \num herauszufinden, wohin dein Volk verschleppt wurde \nund stößt dabei auf ein dunkles Geheimnis aus längst vergangenen Zeiten.",
+    "version": "v1.0",
+    "title": "der große Test",
+    "info": "das grosse Testspiel",
     "character_profiles": {
         "1": {
             "HP": 100,
@@ -12,11 +12,21 @@
             "Wisdom": 5,
             "Intelligence": 5,
             "Charisma": 3,
+            "Ability": {
+                        "discription": "",
+                        "Stats":{}
+            },
             "Backstory": "He served the Crown until the heir was assassinated under his watch.\nFramed by corrupted nobles, he barely escaped execution.\nNow a wandering mercenary, he wears tarnished armor as a painful reminder."
         }
     },
-    "map":{
-        "1": "#################################################################\n#                                                               #\n#                                                               #\n#                                                               #\n#                                                               #\n#                                                               #\n#                                                               #\n#                                                               #\n#                                                               #\n#                                                               #\n#                                                               #\n#                                                               #\n#                                                               #\n#                                                               #\n#                                                               #\n#                                                               #\n#                                                               #\n#                                                               #\n#                                                               #\n#                                                               #\n#                                                               #\n#                                                               #\n#################################################################"
+    "maps":{
+        "1": "#################################################################\n#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#\n#~~~~~~~~~~~~~~~~~~~~~~~~ Branduin ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#\n#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#\n#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~      ~~~~~~~~~~~~~   ~~~~~~~~  #\n#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~           ~~~~~~~~       ~~~     #\n#~~~~~~~~~~~~~~~~~~~     ~~~             ~~~~                   #\n#~~~~~~~~~~~~~~~~~  MMM                 ~                       #\n#~~~~~~~~~~~~~~~~  MMMMM               ~                        #\n#~~~~~~~~~~~~~~  MMMMMM                 ~                       #\n#~~~~~~~~~~~~   MMMMMMMMM  <-- Abdalum  ~     ~~~~~      ~~~    #\n#~~~~~~~~~~   MMMMMMMMMMMMM            ~   ~~~     ~~  ~~   ~~~ #\n#~~~~~~  SSSSS  MMMMMMMMM            ~~ ~~~          ~~      BBB#\n#~~~     S   S  MMMMMMM            ~~~~~                    BBBB#\n#        SSSSS                 ~~~~                       BBBBBB#\n#         |                ~~~~                         BBBBBBBB#\n#      Castel           ~~~ <-- Brandel               BBBBBBBBBB#\n#                    ~~~                           BBBBBBBBBBBBB#\n#                  ~~                            BBBBBBBBBBBBBBB#\n#                ~~               BBB           BBBBBBBBBBBBBBBB#\n#               ~                BBBBB         BBBBBBBBBBBBBBBBB#\n#              ~ MMM <-- Estera BBBBBBB       BBBBBBBBBBBBBBBBBB#\n#             ~ MMMM         BBBBBBBBBBBB   BBBBBBBBBBBBBBBBBBBB#\n#            ~~~ MMMM        BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB#\n#           ~~~~~  MMMMM    BBBBBBBBBB Druindal BBBBBBBBBBBBBBBB#\n#         ~~~~~~~~    MMMMM BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB#\n#################################################################\n\nBBB = Woods\n~~~ = Wather\nSSS = Castle\nMMM = Town"
+    },
+    "items": {
+        "item_name":{
+            "discription": "",
+            "Stats":{}
+        }
     },
     "content": {
         "1": {
